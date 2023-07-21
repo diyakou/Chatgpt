@@ -4,3 +4,6 @@
                                                             <button>Follow on Instagram </button>
 
 IG : Dr_webiran
+#Server codes in app/server
+For mongodb url editing .env app/server/.env
+#MONGO_URI = "mongoDb URI"
