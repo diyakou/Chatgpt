@@ -1,0 +1,13 @@
+.pic1{
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  margin-right: 20%;
+}
+.h3-txt{
+  display: flex;
+  position: absolute;
+  z-index: -2;
+  top:25%;
+  right:25%;
+}

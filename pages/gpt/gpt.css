@@ -1,0 +1,94 @@
+
+.closebtn{
+    display: flex;
+    position: absolute;
+    margin-top: -2%;
+    margin-left: 57%;
+}
+.code-block-user {
+    background-color: #2c7be5;
+    color: white;
+  }
+  
+  .code-block-assistant {
+    background-color: #f0f0f0;
+    color: black;
+  }
+.modals{
+    direction: rtl;
+}
+.btn {
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+ 
+}
+
+.btn:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.btn:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+.btns{
+    display: flex;
+    margin-left: 43% ;
+    margin-top: 25% !important;
+}
+body{
+    background-color: linear-gradient(rgba(0,0,0,) , rgba(255,255,255)) !important;
+}
+.lgn{
+    display: flex;
+    position: relative;
+    left:5%;
+}
+.text-3xl{
+    color:black;
+}
+.rounded{
+    background-color: black !important;
+}
+.rounded:hover{
+    background-color: rgb(44, 44, 44) !important;
+}
+textarea{
+    color:wheat;
+}
+.apiResponse{
+    direction: ltr;
+    font-weight: bold;
+    border-radius: 1.3rem;
+}
+.p-3{
+    border-radius: 1.3rem;
+}
+@media screen and (prefers-color-scheme:dark) {
+    p{
+        color:black;
+    }
+    input{
+        color: black;
+    }
+    textarea{
+        color: black;
+    }
+    
+}

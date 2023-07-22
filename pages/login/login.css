@@ -1,0 +1,9 @@
+@media screen and (prefers-color-scheme:dark) {
+    p{
+        color:black;
+    }
+    input{
+        color: black;
+    }
+    
+}
