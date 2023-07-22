@@ -1,0 +1,200 @@
+.photo{
+    z-index: 2;
+  }
+  .h3-txt{
+    display: flex;
+    position: absolute;
+    z-index: -2;
+    top:65%;
+    left:20%;
+    font-size: 98px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    text-shadow: 33px 22px 15px 10px black;
+    
+  }
+  .box1{
+    position: absolute;
+    z-index: 2;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width:350px;
+    top:35%;
+    left: 60%
+  }
+  .char2{
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    left:59%;
+    top:95%;
+  }
+  .h1-txt{
+    display: flex;
+    position: absolute;
+    top:150%;
+    left:69%;
+    font-size: 98px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    z-index: -2;
+  }
+  .box2{
+    position: absolute;
+    top:125%;
+    left: 20%;
+    width: 430px;
+    z-index: -2;
+  }
+  .skill-bar {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .skill-circle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0.5rem;
+  }
+  .char3{
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    top: 157%;
+  }
+  .box3{
+    position: absolute;
+    top: 180%;
+    left: 35%;
+    z-index: -2;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .title3{
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .btn-re {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: transparent 0 0 0 3px,rgba(18, 18, 18, .1) 0 6px 20px;
+    box-sizing: border-box;
+    color: #121212;
+    cursor: pointer;
+    display: inline-flex;
+    flex: 1 1 auto;
+    font-family: Inter,sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 1;
+    margin: 0;
+    outline: none;
+    padding: 1rem 1.2rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s,-webkit-box-shadow .2s;
+    white-space: nowrap;
+    border: 0;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .btn-re:hover {
+    box-shadow: #121212 0 0 0 3px, transparent 0 0 0 0;
+  }
+  .btn-re{
+    position: absolute;
+      z-index: 2;
+      top: 150%;
+      left:25%;
+  }
+  footer{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-top: 55%;
+  }
+  .git{
+    color:rgb(0, 153, 102)
+  }
+  .git:hover{
+    color: aquamarine;
+  }
+  
+@media only screen and (max-width: 728px){
+     .pic1 {
+      position: relative;
+      right:66%;
+     }
+     .box1{
+      position: relative;
+      left  :4%;
+      width: 90%;
+
+     }
+     header{
+      width: 100%;
+     }
+     footer{
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      position: relative;
+      margin-top: 350%;
+     }
+     .shadow{
+      max-width: 100%;
+     }
+     .h3-txt{
+      font-size: 55px;
+      top:18%;
+      margin-left: -11%;
+     }
+     .h1-txt{
+      top:95%;
+      left: 14%;
+     }
+     .char2{
+      top:65%;
+      left:-4%;
+     }
+     .box2{
+      position: absolute;
+      width: 50%;
+      height: 65%;
+      top:110%;
+      left:12%;
+     }
+     .skill-bar{
+       content: "";
+       display: table;
+       clear: both;
+     }
+     .char3{
+      top:133%;
+      left: 30%;
+     }
+     .box3{
+      z-index: -2;
+      width: 65%;
+      align-items: center;
+      text-align: center;
+      vertical-align: center;
+      top:187%;
+      left:13%;
+     }
+     .btn-re{
+      position: absolute;
+      z-index: 2;
+      background-color: indianred;
+      top: 110%;
+      left:25%;
+     }
+  }
