@@ -1,7 +1,7 @@
 # This is a example of using from API / NodeJs / MongoDB / NextJS
-# A Personal site with login and register and auth -> PersianGPT working with openAI API
-          Published on : webpro.morvism.ir/pages/gpt
-                                                            <button>Follow on Instagram </button>
+# A Personal site with login and register and auth -> PersianGPT working with openAI APi
+Published on : drweb.morvisms.ir
+                                        Follow on Instagram
 
 IG : Dr_webiran
 
