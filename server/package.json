@@ -20,7 +20,7 @@
     "express-validator": "^4.3.0",
     "fs": "^0.0.1-security",
     "jsonwebtoken": "^9.0.1",
-    "mongodb": "^5.7.0",
+    "mongodb": "^5.9.2",
     "mongoose": "^7.3.2",
     "mysql": "^2.18.1",
     "mysql2": "^3.5.0",
